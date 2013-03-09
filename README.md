@@ -6,11 +6,12 @@ This skeleton be used when working on large applications
 Get brunch
 ===
 See brunch.io
-or npm install -g brunch
+or
+`npm install -g brunch`
 
 Use the template
 ===
-brunch new <app> --skeleton git@github.com/randome/brunch-with-brunch.git
+`brunch new <app> --skeleton git@github.com/randome/brunch-with-brunch.git`
 
 Includes
 ===
@@ -39,27 +40,27 @@ This will install all dependencies located in package.json
 
 Run
 ===
-brunch w -s
+`brunch w -s`
 
 Brunch will monitor and assemble your files.
-It will also startup a local server on port 3333
+It will also startup a local server on `localhost:3333`
 
 Other
 ===
-There is also a branch called bootsrap
-There you'll find added twitter bootsraps css and js files
+There is also a branch called bootstrap
+There you'll find added twitter bootsrap css and js files
 
 Other marionette skeleton :
 https://github.com/SimbCo/brunch-with-marionette
 
 Resources
 ===
-Backbone[backbonejs.org]
-Zepto[http://zeptojs.com]
-Lodash[http://lodash.com/]
-Marionette[http://marionettejs.com/]
-Handlebars[http://handlebarsjs.com/]
-CoffeScript[http://coffeescript.org/]
-Brunch.io[http://brunch.io]
-Jasmine[http://pivotal.github.com/jasmine/]
-NodeJS[http://nodejs.org]
+* Backbone (backbonejs.org)
+* Jquery (http://jquery.com)
+* Lodash (http://lodash.com/)
+* Marionette (http://marionettejs.com/)
+* Handlebars (http://handlebarsjs.com/)
+* CoffeScript (http://coffeescript.org/)
+* Brunch.io (http://brunch.io)
+* Jasmine (http://pivotal.github.com/jasmine/)
+* NodeJS (http://nodejs.org)
