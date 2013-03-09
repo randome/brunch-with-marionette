@@ -15,9 +15,9 @@ brunch new <app> --skeleton git@github.com:randome/brunch-with-brunch.git
 Includes
 ===
 Backbone v0.9.10
-Marionette v1.0.0-rc6
 Zepto v1.0 (instead of jQuery)
 Lo-Dash v1.0.1 (instead of Underscore)
+Marionette v1.0.0-rc6
 Handlebars v1.0.0-rc.3 for templates
 Jasmine for testing
 
@@ -50,9 +50,9 @@ https://github.com/SimbCo/brunch-with-marionette
 Resources
 ===
 Backbone[backbonejs.org]
-Marionette[http://marionettejs.com/]
 Zepto[http://zeptojs.com]
 Lodash[http://lodash.com/]
+Marionette[http://marionettejs.com/]
 Handlebars[http://handlebarsjs.com/]
 CoffeScript[http://coffeescript.org/]
 Brunch.io[http://brunch.io]
