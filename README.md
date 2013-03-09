@@ -13,22 +13,18 @@ npm install -g brunch
 Use the template
 ===
 ```
-brunch new <app> --skeleton git@github.com/randome/brunch-with-brunch.git
+brunch new <app> --skeleton git://github.com/randome/brunch-with-brunch.git
 cd <app>
 ```
-and
-
-`npm install`
-
-to install dependencies defined in `package.json`
+brunch will also install dependencies defined in `package.json`
 
 Run
 ===
 `brunch w -s`
 
-Brunch will monitor and assemble your files.
+Brunch will monitor and assemble your files in `./public` folder
 
-It will also startup a local server on `localhost:3333`
+It will also startup a local server on `http://localhost:3333`
 
 Includes
 ===
@@ -41,17 +37,11 @@ Includes
 
 Dependencies
 ===
-nodejs
-
-CoffeScript
-
-`
-npm install -g coffee-script
-`
-
-For Jasmine
-
-Ruby > 1.9, Rubygems, Bundler
+- nodejs
+- CoffeScript
+`npm install -g coffee-script`
+- Jasmine
+  Ruby > 1.9, Rubygems, Bundler
 
 
 Other
