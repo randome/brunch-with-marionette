@@ -16,11 +16,7 @@ Use the template
 brunch new <app> --skeleton git://github.com/randome/brunch-with-brunch.git
 cd <app>
 ```
-and
-
-`npm install`
-
-to install dependencies defined in `package.json`
+brunch will also install dependencies defined in `package.json`
 
 Run
 ===
