@@ -31,6 +31,9 @@ For Jasmine
 Ruby > 1.9, Rubygems, Bundler
 Node.js, npm
 
+In your project folder
+run npm install
+This will install all dependencies located in package.json
 
 Run
 ===
