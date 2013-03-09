@@ -2,7 +2,7 @@ exports.config =
   # See http://brunch.readthedocs.org/en/latest/config.html for documentation.
   files:
     javascripts:
-      defaultExtension: 'coffee'
+      #defaultExtension: 'coffee'
       joinTo:
         'javascripts/app.js': /^app/
         'javascripts/vendor.js': /^vendor/
@@ -10,6 +10,10 @@ exports.config =
         'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
         before: [
+          'vendor/javascripts/zepto.js',
+          'vendor/javascripts/lodash.js',
+          'vendor/javascripts/backbone.js',
+          'vendor/javascripts/backbone.marionette.js',
         ]
 
     stylesheets:
