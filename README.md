@@ -13,7 +13,7 @@ npm install -g brunch
 Use the template
 ===
 ```
-brunch new <app> --skeleton git@github.com/randome/brunch-with-brunch.git
+brunch new <app> --skeleton git://github.com/randome/brunch-with-brunch.git
 cd <app>
 ```
 and
