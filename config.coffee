@@ -19,4 +19,5 @@ exports.config =
         after: []
 
     templates:
+      defaultExtension: 'hbs'
       joinTo: 'javascripts/app.js'
