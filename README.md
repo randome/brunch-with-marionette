@@ -37,17 +37,11 @@ Includes
 
 Dependencies
 ===
-nodejs
-
-CoffeScript
-
-`
-npm install -g coffee-script
-`
-
-For Jasmine
-
-Ruby > 1.9, Rubygems, Bundler
+- nodejs
+- CoffeScript
+`npm install -g coffee-script`
+- Jasmine
+  Ruby > 1.9, Rubygems, Bundler
 
 
 Other
