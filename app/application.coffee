@@ -5,6 +5,7 @@ class Application extends Backbone.Marionette.Application
 
       Object.freeze? this
     )
+
     @start()
 
 module.exports = new Application()
