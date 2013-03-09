@@ -1,6 +1,5 @@
-Brunch with Brunch
+Brunch with Marionette
 ==================
 
-This is as minimal of a project as possible with brunch. It includes only
-javascript, css, and optimization plugins. The rest is left up to you.
+Work in progress
 
