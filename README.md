@@ -22,9 +22,9 @@ Run
 ===
 `brunch w -s`
 
-Brunch will monitor and assemble your files.
+Brunch will monitor and assemble your files in `./public` folder
 
-It will also startup a local server on `localhost:3333`
+It will also startup a local server on `http://localhost:3333`
 
 Includes
 ===
