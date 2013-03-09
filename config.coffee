@@ -10,7 +10,7 @@ exports.config =
         'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
         before: [
-          'vendor/javascripts/zepto.js',
+          'vendor/javascripts/jquery-1.9.1.js',
           'vendor/javascripts/lodash.js',
           'vendor/javascripts/backbone.js',
           'vendor/javascripts/backbone.marionette.js',
@@ -18,7 +18,7 @@ exports.config =
 
     stylesheets:
       joinTo:
-        'stylesheets/app.css': /^(app|vendor)/
+        #'stylesheets/app.css': /^(app|vendor)/
         'test/stylesheets/test.css': /^test/
       order:
         before: []

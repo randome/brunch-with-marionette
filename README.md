@@ -15,7 +15,7 @@ brunch new <app> --skeleton git@github.com/randome/brunch-with-brunch.git
 Includes
 ===
 Backbone v0.9.10
-jQuery instead of Zepto (does not support Deffered for Marionette)
+jQuery 1.9.1 instead of Zepto (does not support Deffered for Marionette)
 Lo-Dash v1.0.1 (instead of Underscore)
 Marionette v1.0.0-rc6
 Handlebars v1.0.0-rc.3 for templates
