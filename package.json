@@ -1,15 +1,16 @@
 {
-  "author": "Your Name",
-  "name": "package-name",
-  "description": "Package description",
+  "author": "Dejan Stokanic",
+  "name": "Brunch-With-Marionette-2",
+  "description": "Brunch with Marionette",
   "version": "0.0.1",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com/randome/brunch-with-brunch.git"
   },
   "engines": {
-    "node": "~0.6.10 || 0.8 || 0.9"
+    "node": "0.8 || 0.9",
+    "npm": "1.1.x"
   },
   "scripts": {
     "start": "brunch watch --server",
