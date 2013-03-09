@@ -23,6 +23,8 @@ Jasmine for testing
 
 Dependencies
 ===
+nodejs
+
 CoffeScript
 npm install -g coffee-script
 
@@ -60,3 +62,4 @@ Handlebars[http://handlebarsjs.com/]
 CoffeScript[http://coffeescript.org/]
 Brunch.io[http://brunch.io]
 Jasmine[http://pivotal.github.com/jasmine/]
+NodeJS[http://nodejs.org]
