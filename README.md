@@ -16,7 +16,7 @@ Use the template
 brunch new <app> --skeleton git://github.com/randome/brunch-with-brunch.git
 cd <app>
 ```
-brunch will also install dependencies defined in `package.json`
+brunch will also install dependencies defined in `package.json` (by running npm install)
 
 Run
 ===
@@ -33,15 +33,13 @@ Includes
 - Lo-Dash v1.0.1 (instead of Underscore)
 - Marionette v1.0.0-rc6
 - Handlebars v1.0.0-rc.3 for templates
-- Jasmine for testing
+- mocha with chai
 
 Dependencies
 ===
 - nodejs
 - CoffeScript
 `npm install -g coffee-script`
-- Jasmine
-  Ruby > 1.9, Rubygems, Bundler
 
 
 Other
@@ -58,7 +56,7 @@ Resources
 * Handlebars (http://handlebarsjs.com/)
 * CoffeScript (http://coffeescript.org/)
 * Brunch.io (http://brunch.io)
-* Jasmine (http://pivotal.github.com/jasmine/)
+* Mocha (http://visionmedia.github.com/mocha/)
 * NodeJS (http://nodejs.org)
 
 [brunch.io]: http://brunch.io
